@@ -1,0 +1,602 @@
+.container {
+    height: 695px;
+    width: 100%;
+    background-color: rgb(94, 103, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subcontainer {
+    width: 80%;
+    height: 620px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 37px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.login_area {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.login_area h3 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.login_area ul {
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: -10px;
+    margin-left: 10px;
+    color: rgb(134, 0, 211);
+}
+
+.login_area ul li {
+    margin-top: 57px;
+}
+
+.login_area input {
+    margin-top: 50px;
+    width: 75%;
+    background-color: transparent;
+    /* border: 0px; */
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    height: 30px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+.login_area input:focus {
+    outline: 0px;
+}
+
+.login_area a {
+    text-decoration: none;
+}
+
+.para1 {
+    text-decoration: none;
+    color: rgb(134, 0, 211);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.btn1 {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(134, 0, 211);
+    padding-left: 40%;
+    padding-right: 35%;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.para2 a {
+    text-decoration: none;
+    color: rgb(134, 0, 211);
+}
+
+.para2 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.img_area {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: blueviolet;
+    background-image: url('30.12backimg.jpg');
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+.h1first {
+    color: white;
+    text-align: center;
+    margin-top: 50%;
+    opacity: 1;
+}
+
+@media (max-width:667px) {
+    .container {
+        height: 1000px;
+        width: 100%;
+        background-color: rgb(39, 32, 30);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subcontainer {
+        width: 80%;
+        height: 450px;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 37px;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    .login_area {
+        width: 100%;
+        height: 450px;
+        float: right;
+    }
+    .login_area h3 {
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .login_area ul {
+        list-style-type: none;
+        margin-top: 20px;
+        font-size: 30px;
+        position: absolute;
+        top: 15px;
+        margin-left: 10px;
+        color: rgb(29, 13, 12);
+    }
+    .login_area ul li {
+        margin-top: 30px;
+    }
+    .login_area input {
+        margin-top: 20px;
+        width: 60%;
+        background-color: transparent;
+        /* border: 0px; */
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        height: 30px;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .login_area a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .para1 {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .btn1 {
+        margin-left: 50px;
+        margin-top: 20px;
+        color: white;
+        background-color: rgb(24, 21, 20);
+        padding-left: 30%;
+        padding-right: 28%;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .para2 a {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+    }
+    .para2 {
+        text-align: center;
+        margin-top: 35px;
+        font-size: 20px;
+    }
+    .img_area {
+        width: 100%;
+        height: 450px;
+        float: right;
+        background-color: rgb(52, 85, 56);
+        background-image: url('30.12backimg.jpg');
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+    .h1first {
+        color: white;
+        text-align: center;
+        margin-top: 50%;
+        opacity: 1;
+    }
+}
+
+@media (min-width:668px) {
+    .container {
+        height: 1000px;
+        width: 100%;
+        background-color: rgb(231, 64, 13);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subcontainer {
+        width: 80%;
+        height: 500px;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 37px;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    .login_area {
+        width: 100%;
+        height: 100%;
+        float: right;
+    }
+    .login_area h3 {
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .login_area ul {
+        list-style-type: none;
+        margin-top: 20px;
+        font-size: 30px;
+        position: absolute;
+        top: -10px;
+        margin-left: 10px;
+        color: rgb(211, 14, 0);
+    }
+    .login_area ul li {
+        margin-top: 57px;
+    }
+    .login_area input {
+        margin-top: 50px;
+        width: 75%;
+        background-color: transparent;
+        /* border: 0px; */
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        height: 30px;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .login_area a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .para1 {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .btn1 {
+        margin-left: 50px;
+        margin-top: 10px;
+        color: white;
+        background-color: rgb(211, 49, 0);
+        padding-left: 40%;
+        padding-right: 35%;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .para2 a {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+    }
+    .para2 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .img_area {
+        width: 100%;
+        height: 430px;
+        float: right;
+        background-color: rgb(52, 85, 56);
+        background-image: url('30.12backimg.jpg');
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+    .h1first {
+        color: white;
+        text-align: center;
+        margin-top: 30%;
+        opacity: 1;
+    }
+}
+
+@media (min-width:927px) {
+    .container {
+        height: 570px;
+        width: 100%;
+        background-color: rgb(41, 199, 75);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subcontainer {
+        width: 80%;
+        height: 500px;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 37px;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    .login_area {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .login_area h3 {
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .login_area ul {
+        list-style-type: none;
+        margin-top: 20px;
+        font-size: 30px;
+        position: absolute;
+        top: -10px;
+        margin-left: 10px;
+        color: rgb(134, 0, 211);
+    }
+    .login_area ul li {
+        margin-top: 57px;
+    }
+    .login_area input {
+        margin-top: 50px;
+        width: 75%;
+        background-color: transparent;
+        /* border: 0px; */
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        height: 30px;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .login_area a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .para1 {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .btn1 {
+        margin-left: 50px;
+        margin-top: 15px;
+        color: white;
+        background-color: rgb(102, 211, 0);
+        padding-left: 30%;
+        padding-right: 35%;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .para2 a {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+    }
+    .para2 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .img_area {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background-color: blueviolet;
+        background-image: url('30.12backimg.jpg');
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+    .h1first {
+        color: white;
+        text-align: center;
+        margin-top: 50%;
+        opacity: 1;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        height: 695px;
+        width: 100%;
+        background-color: rgb(201, 100, 18);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subcontainer {
+        width: 80%;
+        height: 620px;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 37px;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    .login_area {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .login_area h3 {
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .login_area ul {
+        list-style-type: none;
+        margin-top: 20px;
+        font-size: 30px;
+        position: absolute;
+        top: -10px;
+        margin-left: 10px;
+        color: rgb(134, 0, 211);
+    }
+    .login_area ul li {
+        margin-top: 57px;
+    }
+    .login_area input {
+        margin-top: 50px;
+        width: 75%;
+        background-color: transparent;
+        /* border: 0px; */
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        height: 30px;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .login_area a {
+        text-decoration: none;
+    }
+    .para1 {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .btn1 {
+        margin-left: 50px;
+        margin-top: 50px;
+        color: white;
+        background-color: rgb(134, 0, 211);
+        padding-left: 35%;
+        padding-right: 35%;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .para2 a {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+    }
+    .para2 {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .img_area {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background-color: blueviolet;
+        background-image: url('30.12backimg.jpg');
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+    .h1first {
+        color: white;
+        text-align: center;
+        margin-top: 50%;
+        opacity: 1;
+    }
+}
+
+@media (min-width:1500px) {
+    .container {
+        height: 695px;
+        width: 100%;
+        background-color: rgb(94, 103, 228);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subcontainer {
+        width: 80%;
+        height: 620px;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 37px;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    .login_area {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .login_area h3 {
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .login_area ul {
+        list-style-type: none;
+        margin-top: 20px;
+        font-size: 30px;
+        position: absolute;
+        top: -10px;
+        margin-left: 10px;
+        color: rgb(134, 0, 211);
+    }
+    .login_area ul li {
+        margin-top: 57px;
+    }
+    .login_area input {
+        margin-top: 50px;
+        width: 75%;
+        background-color: transparent;
+        /* border: 0px; */
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        height: 30px;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .login_area a {
+        text-decoration: none;
+    }
+    .para1 {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .btn1 {
+        margin-left: 50px;
+        margin-top: 50px;
+        color: white;
+        background-color: rgb(134, 0, 211);
+        padding-left: 40%;
+        padding-right: 35%;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .para2 a {
+        text-decoration: none;
+        color: rgb(134, 0, 211);
+    }
+    .para2 {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .img_area {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background-color: blueviolet;
+        background-image: url('30.12backimg.jpg');
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+    .h1first {
+        color: white;
+        text-align: center;
+        margin-top: 30%;
+        opacity: 1;
+    }
+}
